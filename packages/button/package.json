@@ -1,0 +1,15 @@
+{
+  "name": "@mono/button",
+  "version": "1.1.0",
+  "license": "MIT",
+  "main": "./dist/button.umd.js",
+  "module": "./dist/button.es.js",
+  "dependencies": {
+    "form-data": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mono",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.1.4",
+    "lerna": "^4.0.0",
+    "vite": "^2.7.10"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "loadsh": "^0.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
