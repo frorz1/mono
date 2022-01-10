@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "app": "yarn workspace @mono/app run dev",
+    "build-button": "yarn workspace @mono/app run dev"
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.1.4",
     "lerna": "^4.0.0",
