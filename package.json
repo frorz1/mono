@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "yarnw": "yarn workspace",
+    "w": "yarn workspace",
     "app": "yarn workspace @mono/app run dev",
     "build-button": "yarn workspace @mono/app run dev",
     "build": "lerna run --stream --sort build",
