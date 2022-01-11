@@ -6,11 +6,18 @@
   "private": true,
   "scripts": {
     "app": "yarn workspace @mono/app run dev",
-    "build-button": "yarn workspace @mono/app run dev"
+    "build-button": "yarn workspace @mono/app run dev",
+    "build": "lerna run --stream --sort build",
+    "clean": "yarn workspaces run clean",
+    "test": "yarn workspaces run test"
   },
   "devDependencies": {
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
     "@vitejs/plugin-react": "^1.1.4",
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "lint-staged": "^12.1.7",
     "vite": "^2.7.10"
   },
   "workspaces": [

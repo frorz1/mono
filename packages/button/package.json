@@ -5,11 +5,17 @@
   "main": "./dist/button.umd.js",
   "module": "./dist/button.es.js",
   "dependencies": {
-    "form-data": "^4.0.0"
+    "axios": "^0.24.0",
+    "form-data": "^4.0.0",
+    "vue": "^2.6.14"
   },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "clean": "rm -rf ./dist"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
   }
 }
