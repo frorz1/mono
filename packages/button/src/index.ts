@@ -2,7 +2,7 @@ export const getTime = () => {
   return Date.now()
 }
 
-export const getCookie = (name) => {
+export const getCookie = (name: string) => {
   const nameEQ = name + '='
   const ca = document.cookie.split(';')
   for (const item of ca) {
@@ -17,7 +17,7 @@ export const getCookie = (name) => {
   return ''
 }
 
-const testUa = (reg) =>
+const testUa = (reg: string) =>
   new RegExp(reg.toLowerCase()).test(navigator.userAgent.toLowerCase())
 
 export const getUserAgent = () => navigator.userAgent
