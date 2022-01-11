@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/frorz1/mono/compare/@mono/button@1.2.0...@mono/button@1.3.0) (2022-01-11)
+
+
+### Features
+
+* **button:** 增加方法 ([9d3a599](https://github.com/frorz1/mono/commit/9d3a599f11543c9cdd98c0fa3460e960bd8c75b0))
+
+
+
+
+
 # 1.2.0 (2022-01-11)
 
 
