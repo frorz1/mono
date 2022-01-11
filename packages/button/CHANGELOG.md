@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/frorz1/mono/compare/@mono/button@1.3.0...@mono/button@1.4.0) (2022-01-11)
+
+
+### Features
+
+* **button:** delete lodash ([ab386d6](https://github.com/frorz1/mono/commit/ab386d6874264ab3c723824133c3bef612583133))
+
+
+
+
+
 # [1.3.0](https://github.com/frorz1/mono/compare/@mono/button@1.2.0...@mono/button@1.3.0) (2022-01-11)
 
 
