@@ -11,6 +11,5 @@
   "include": ["packages/*"],
   "exclude": [
     "node_modules",
-    "lib"
   ]
 }

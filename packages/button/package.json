@@ -6,7 +6,8 @@
   "module": "./dist/button.es.js",
   "files": [
     "dist",
-    "lib"
+    "lib",
+    "CHANGELOG.md"
   ],
   "dependencies": {
     "axios": "^0.24.0",

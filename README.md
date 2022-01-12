@@ -4,6 +4,7 @@
  1、lerna
 
   - 通常用于库的管理。同时兼具依赖管理(使用npm或者yarn)和发布功能。缺点是通过lerna安装依赖会在每一个packages里面生成node_modules
+  - 可以通过`lerna bootstrap --hoist`将共同的依赖提升至root
 
  2、yarn workspace
 
